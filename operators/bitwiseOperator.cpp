@@ -14,7 +14,17 @@ int d = 5; // 0101b (0x05)
 int e = 9; // 1001b (0x09)
 int f = d ^ e; // 1100b (0x0C)
 std::cout << "\n bitwise xor a = " << d << ", b = " << e << ", c = a ^ b = " << f << std::endl;
-
+/*int computeXOR(int n)
+{
+    if (n % 4 == 0)
+        return n;
+    if (n % 4 == 1)
+        return 1;
+    if (n % 4 == 2)
+        return n + 1;
+    else
+        return 0;
+}*/
 //& - bitwise AND
 
 int g = 6; // 0110b (0x06)
