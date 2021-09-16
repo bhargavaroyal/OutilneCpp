@@ -16,7 +16,7 @@ else
     // the Boolean condition becomes false
     goto label_1;
  
-    label_2: cout <<"Geeks";
+    label_2: cout <<"Sample";
 }
 return 0;
 }

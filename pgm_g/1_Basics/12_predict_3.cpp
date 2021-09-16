@@ -15,8 +15,8 @@ int main()
     //You can convert a const char[] to const char* because the array decays to the pointer,
     // but what you are doing is making a mutable a constant.
 
-  char  *str1[] = "GEEKS";       //sol:  char const  *str2 = "FOR GEEKS";
-  char   *str2 = "FOR GEEKS"; //sol:  char const  *str2 = "FOR GEEKS";
+  char  *str1[] = "Sample";       //sol:  char const  *str2 = "FOR Sample";
+  char   *str2 = "FOR Sample"; //sol:  char const  *str2 = "FOR Sample";
   swap(str1, str2);
   cout<<"str1 is "<<str1<<endl;
   cout<<"str2 is "<<str2<<endl;

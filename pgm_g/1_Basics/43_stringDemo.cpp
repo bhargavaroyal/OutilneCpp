@@ -8,7 +8,7 @@ int main()
 {
   
     // Declare and initialize string
-    char str[] = "Geeks";
+    char str[] = "Sample";
   
     // Print string
     cout << str;

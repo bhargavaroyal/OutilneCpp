@@ -9,7 +9,7 @@ int main()
 {
   
     // Declare and initialize the string
-    string str1 = "Welcome to GeeksforGeeks!";
+    string str1 = "Welcome to World!";
   
     // Initialization by raw string
     string str2("A Computer Science Portal");
